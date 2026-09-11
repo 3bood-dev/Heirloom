@@ -1,0 +1,44 @@
+{
+  "name": "hedera-inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd contracts && forge test -vv",
+    "spike:00": "tsx spikes/00-create-beneficiary.ts",
+    "spike:01": "tsx spikes/01-deploy-probe.ts",
+    "spike:gate1": "tsx spikes/gate1-balance.ts",
+    "spike:gate2": "tsx spikes/gate2-allowance.ts",
+    "spike:gate3": "tsx spikes/gate3-schedule.ts",
+    "build": "cd contracts && forge build && FOUNDRY_PROFILE=spikes forge build",
+    "spike:gate3b": "tsx spikes/gate3b-chain.ts",
+    "deploy:factory": "tsx scripts/deploy-factory.ts",
+    "demo": "tsx scripts/demo-lifecycle.ts",
+    "abi": "tsx scripts/export-abi.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/3bood-dev/hack-the-son.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/3bood-dev/hack-the-son/issues"
+  },
+  "homepage": "https://github.com/3bood-dev/hack-the-son#readme",
+  "type": "module",
+  "private": "true",
+  "devDependencies": {
+    "@hashgraph/sdk": "^2.81.0",
+    "@types/node": "^22.20.2",
+    "dotenv": "^17.4.2",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "viem": "^2.56.3"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.102.8",
+    "wagmi": "^3.7.7"
+  }
+}

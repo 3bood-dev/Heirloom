@@ -1,0 +1,21 @@
+# secrets
+.env
+.env.*
+!.env.example
+
+# node
+node_modules/
+.next/
+out/
+dist/
+*.log
+
+# foundry
+contracts/out/
+contracts/cache/
+contracts/broadcast/
+
+# misc
+.DS_Store
+contracts/out-spikes/
+spikes/state.json
