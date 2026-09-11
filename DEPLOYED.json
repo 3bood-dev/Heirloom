@@ -1,0 +1,8 @@
+{
+  "network": "testnet",
+  "chainId": 296,
+  "factoryDemo": "0x69ec6283a1ae859b008909ab8e5ccee319cfc11d",
+  "factoryDeployTx": "0xc52bd737b824bbbcc829b1246f0d530d40669a9f399d0e145f0d97fb3a780731",
+  "updatedAt": "2026-09-11T20:32:02.682Z",
+  "demoVault": "0x1862FcCa8e753e67D4227B36fb014fbebaa1C2b7"
+}
