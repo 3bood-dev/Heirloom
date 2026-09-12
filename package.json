@@ -18,15 +18,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3bood-dev/hack-the-son.git"
+    "url": "git+https://github.com/3bood-dev/Heirloom.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/3bood-dev/hack-the-son/issues"
+    "url": "https://github.com/3bood-dev/Heirloom/issues"
   },
-  "homepage": "https://github.com/3bood-dev/hack-the-son#readme",
+  "homepage": "https://github.com/3bood-dev/Heirloom#readme",
   "type": "module",
   "private": "true",
   "devDependencies": {
